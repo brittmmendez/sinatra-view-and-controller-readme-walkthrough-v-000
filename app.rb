@@ -13,8 +13,8 @@ class App < Sinatra::Base
     puts params
 
 
-    
-    erb :reversed
+
+  #  erb :reversed
   end
 
   get '/friends' do
